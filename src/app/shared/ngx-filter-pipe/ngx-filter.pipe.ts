@@ -9,11 +9,12 @@ import { Pipe, Injectable, PipeTransform } from '@angular/core';
 })
 @Injectable()
 export class FilterPipe implements PipeTransform {
-  static isFoundOnWalking(value, key) {
+  static isFoundOnWalking(value: any, key: PropertyKey) {
     let walker = value;
     let found = false;
     do {
       if (
+        // eslint-disable-next-line no-prototype-builtins
         walker.hasOwnProperty(key) ||
         Object.getOwnPropertyDescriptor(walker, key)
       ) {
