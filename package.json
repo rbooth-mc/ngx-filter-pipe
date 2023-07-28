@@ -1,7 +1,7 @@
 {
   "name": "@rbooth-mc/ngx-filter-pipe",
-  "version": "4.0.1",
-  "description": "Angular pipe for filtering arrays",
+  "version": "5.0.1",
+  "description": "Angular pipe for filtering arrays, supports Angular 16",
   "author": "Vadym Yatsyuk <vadym.yatsyuk@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -18,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://guramrit-dhillon@github.com/guramrit-dhillon/ngx-filter-pipe.git"
+    "url": "git@github.com:rbooth-mc/ngx-filter-pipe.git"
   },
   "bugs": {
-    "url": "https://github.com/guramrit-dhillon/ngx-filter-pipe/issues"
+    "url": "https://github.com/rbooth-mc/ngx-filter-pipe/issues"
   },
-  "homepage": "https://github.com/guramrit-dhillon/ngx-filter-pipe#readme",
+  "homepage": "https://github.com/rbooth-mc/ngx-filter-pipe#readme",
   "dependencies": {
     "tslib": "^2.6.1"
   },
